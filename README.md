@@ -7,7 +7,7 @@ The adaptation scheme is developed to maximize the energy efficiency of a satell
 Due to the long transmission link, the feedback of the channel state information (CSI) tends to be outdated, which highly deteriorates the system's performance. Therefore, we implement several ML-based regression models to predict the CSI in advance, aiming to achieve accurate CSI and counteract the induced feedback delay. 
 
 ### Repository structure 
-- Adaptive-Scheme: MATLAB codes that implement the adaptive rate and power scheme and analyze the overall performance.
+- Adaptive-Scheme: MATLAB codes that implement the rate/power adaptation scheme and analyze the overall performance.
 - Channel-Pred: Python codes that implement ML-based channel prediction schemes, including ESN, SVM, LSTM, and GRU.
 - Note that data for simulation is obtained from a measurement, available at [LINK](http://focal.mcmaster.ca/)
 
